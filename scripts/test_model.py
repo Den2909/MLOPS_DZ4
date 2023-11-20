@@ -2,13 +2,6 @@ import pandas as pd
 import os
 import pickle
 from sklearn.metrics import f1_score, roc_auc_score
-# import mlflow
-# import mlflow.sklearn
-
-# Инициализация MLflow
-# mlflow.set_tracking_uri("http://localhost:5000")
-# mlflow.set_experiment("test_model")
-# mlflow.start_run()
 
 # Загрузка данных
 datasets_dir = os.path.expanduser('~/Projects/MLOPS_DZ4/datasets')
@@ -34,14 +27,3 @@ print("Test accuracy score: {:.2f}%".format(gbdt_accuracy),
       "Test F1 score: {:.2f}".format(gbdt_f1),
       "Test ROC-AUC score: {:.2f}".format(gbdt_rocauc),
       sep="\n")
-
-# Логирование метрик и параметров
-# mlflow.log_params({
-#     "seasonality": forecaster.sp,
-# })
-# mlflow.log_metric("sMAPE", smape_value)
-
-# print(f'Симметричная средняя абсолютная процентная ошибка (sMAPE) = {smape_value:.3f}')
-
-# # Завершение MLflow run
-# mlflow.end_run()

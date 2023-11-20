@@ -1,0 +1,471 @@
+[2023-11-20T14:39:07.566+0500] {processor.py:157} INFO - Started process (PID=4570) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:39:07.567+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:39:07.568+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:07.568+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:39:07.582+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:07.574+0500] {dagbag.py:346} ERROR - Failed to import: /home/den/airflow/dags/Customer_Churn_Prediction.py
+Traceback (most recent call last):
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/den/airflow/dags/Customer_Churn_Prediction.py", line 14, in <module>
+    with DAG(
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 493, in __init__
+    validate_key(dag_id)
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Customer Churn Prediction' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-11-20T14:39:07.583+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:39:07.601+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.040 seconds
+[2023-11-20T14:40:02.730+0500] {processor.py:157} INFO - Started process (PID=5251) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:40:02.732+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:40:02.732+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:40:02.732+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:40:02.743+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:40:02.735+0500] {dagbag.py:346} ERROR - Failed to import: /home/den/airflow/dags/Customer_Churn_Prediction.py
+Traceback (most recent call last):
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/den/airflow/dags/Customer_Churn_Prediction.py", line 14, in <module>
+    with DAG(
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 493, in __init__
+    validate_key(dag_id)
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Customer Churn Prediction' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-11-20T14:40:02.743+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:40:02.759+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.032 seconds
+[2023-11-20T14:40:41.535+0500] {processor.py:157} INFO - Started process (PID=5331) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:40:41.537+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:40:41.543+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:40:41.540+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:40:41.559+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:40:41.552+0500] {dagbag.py:346} ERROR - Failed to import: /home/den/airflow/dags/Customer_Churn_Prediction.py
+Traceback (most recent call last):
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/den/airflow/dags/Customer_Churn_Prediction.py", line 14, in <module>
+    with DAG(
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 493, in __init__
+    validate_key(dag_id)
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Customer Churn Prediction' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-11-20T14:40:41.561+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:40:41.587+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.054 seconds
+[2023-11-20T14:49:37.118+0500] {processor.py:157} INFO - Started process (PID=6320) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:49:37.120+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:49:37.121+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:49:37.120+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:49:37.124+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:49:37.122+0500] {dagbag.py:346} ERROR - Failed to import: /home/den/airflow/dags/Customer_Churn_Prediction.py
+Traceback (most recent call last):
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/den/airflow/dags/Customer_Churn_Prediction.py", line 14, in <module>
+    with DAG(
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 493, in __init__
+    validate_key(dag_id)
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Customer Churn Prediction' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-11-20T14:49:37.124+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:49:37.140+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.025 seconds
+[2023-11-20T14:50:27.510+0500] {processor.py:157} INFO - Started process (PID=6535) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:50:27.512+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:50:27.512+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:50:27.512+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:50:27.528+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:50:27.515+0500] {dagbag.py:346} ERROR - Failed to import: /home/den/airflow/dags/Customer_Churn_Prediction.py
+Traceback (most recent call last):
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/den/airflow/dags/Customer_Churn_Prediction.py", line 14, in <module>
+    with DAG(
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 493, in __init__
+    validate_key(dag_id)
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Customer Churn Prediction' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-11-20T14:50:27.528+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:50:27.558+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.051 seconds
+[2023-11-20T14:51:07.862+0500] {processor.py:157} INFO - Started process (PID=6585) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:51:07.863+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:51:07.864+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:51:07.864+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:51:07.867+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:51:07.866+0500] {dagbag.py:346} ERROR - Failed to import: /home/den/airflow/dags/Customer_Churn_Prediction.py
+Traceback (most recent call last):
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/den/airflow/dags/Customer_Churn_Prediction.py", line 14, in <module>
+    with DAG(
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 493, in __init__
+    validate_key(dag_id)
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Customer Churn Prediction' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-11-20T14:51:07.867+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:51:07.884+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.024 seconds
+[2023-11-20T14:51:40.730+0500] {processor.py:157} INFO - Started process (PID=6630) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:51:40.732+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:51:40.733+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:51:40.733+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:51:40.740+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:51:40.738+0500] {dagbag.py:346} ERROR - Failed to import: /home/den/airflow/dags/Customer_Churn_Prediction.py
+Traceback (most recent call last):
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/den/airflow/dags/Customer_Churn_Prediction.py", line 14, in <module>
+    with DAG(
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 493, in __init__
+    validate_key(dag_id)
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Customer Churn Prediction' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-11-20T14:51:40.740+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:51:40.773+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.047 seconds
+[2023-11-20T14:52:16.589+0500] {processor.py:157} INFO - Started process (PID=6753) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:52:16.593+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:52:16.594+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:52:16.593+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:52:16.610+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:52:16.601+0500] {dagbag.py:346} ERROR - Failed to import: /home/den/airflow/dags/Customer_Churn_Prediction.py
+Traceback (most recent call last):
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/den/airflow/dags/Customer_Churn_Prediction.py", line 14, in <module>
+    with DAG(
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 493, in __init__
+    validate_key(dag_id)
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Customer Churn Prediction' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-11-20T14:52:16.610+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:52:16.640+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.060 seconds
+[2023-11-20T14:52:52.883+0500] {processor.py:157} INFO - Started process (PID=6812) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:52:52.884+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:52:52.885+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:52:52.885+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:52:52.893+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:52:52.887+0500] {dagbag.py:346} ERROR - Failed to import: /home/den/airflow/dags/Customer_Churn_Prediction.py
+Traceback (most recent call last):
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/den/airflow/dags/Customer_Churn_Prediction.py", line 14, in <module>
+    with DAG(
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dag.py", line 493, in __init__
+    validate_key(dag_id)
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/utils/helpers.py", line 57, in validate_key
+    raise AirflowException(
+airflow.exceptions.AirflowException: The key 'Customer Churn Prediction' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2023-11-20T14:52:52.894+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:52:52.918+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.038 seconds
+[2023-11-20T14:54:28.793+0500] {processor.py:157} INFO - Started process (PID=7460) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:54:28.795+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:54:28.796+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:54:28.795+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:54:28.805+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:54:28.803+0500] {dagbag.py:443} ERROR - Failed to bag_dag: /home/den/airflow/dags/Customer_Churn_Prediction.py
+Traceback (most recent call last):
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 439, in _process_modules
+    self.bag_dag(dag=dag, root_dag=dag)
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 458, in bag_dag
+    self._bag_dag(dag=dag, root_dag=root_dag, recursive=True)
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/models/dagbag.py", line 466, in _bag_dag
+    check_cycle(dag)  # throws if a task cycle is found
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/utils/dag_cycle_tester.py", line 79, in check_cycle
+    child_to_check = _check_adjacent_tasks(current_task_id, task)
+  File "/home/den/Projects/venv/lib/python3.10/site-packages/airflow/utils/dag_cycle_tester.py", line 65, in _check_adjacent_tasks
+    raise AirflowDagCycleException(msg)
+airflow.exceptions.AirflowDagCycleException: Cycle detected in DAG: Customer_Churn_Prediction. Faulty task: optimization_gyperparametr
+[2023-11-20T14:54:28.805+0500] {processor.py:841} WARNING - No viable dags retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:54:28.835+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.044 seconds
+[2023-11-20T14:57:11.379+0500] {processor.py:157} INFO - Started process (PID=7614) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:57:11.380+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:57:11.381+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:11.380+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:57:11.390+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:57:11.647+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:11.647+0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T14:57:11.665+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:11.665+0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T14:57:11.677+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:11.677+0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T14:57:11.678+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:11.678+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:57:11.684+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:11.684+0500] {dag.py:2963} INFO - Creating ORM DAG for Customer_Churn_Prediction
+[2023-11-20T14:57:11.686+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:11.686+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T14:57:11.724+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.347 seconds
+[2023-11-20T14:57:58.653+0500] {processor.py:157} INFO - Started process (PID=7716) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:57:58.655+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:57:58.656+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:58.656+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:57:58.662+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:57:58.674+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:58.674+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:57:58.681+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:58.681+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T14:57:58.697+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.046 seconds
+[2023-11-20T14:58:30.742+0500] {processor.py:157} INFO - Started process (PID=7772) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:58:30.743+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:58:30.744+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:58:30.744+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:58:30.752+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:58:30.764+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:58:30.764+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:58:30.775+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:58:30.775+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T14:58:30.794+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.058 seconds
+[2023-11-20T14:59:05.648+0500] {processor.py:157} INFO - Started process (PID=7820) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:59:05.650+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:59:05.650+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:59:05.650+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:59:05.655+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:59:05.666+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:59:05.666+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:59:05.673+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:59:05.673+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T14:59:05.698+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.052 seconds
+[2023-11-20T14:59:52.348+0500] {processor.py:157} INFO - Started process (PID=7913) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:59:52.349+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T14:59:52.350+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:59:52.350+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:59:52.356+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T14:59:52.367+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:59:52.367+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:59:52.374+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:59:52.374+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T14:59:52.401+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.055 seconds
+[2023-11-20T15:00:27.504+0500] {processor.py:157} INFO - Started process (PID=7960) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:00:27.507+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:00:27.509+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:00:27.508+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:00:27.521+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:00:27.535+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:00:27.535+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:00:27.550+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:00:27.549+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:00:27.584+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.084 seconds
+[2023-11-20T15:01:03.229+0500] {processor.py:157} INFO - Started process (PID=8005) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:01:03.231+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:01:03.232+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:01:03.232+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:01:03.246+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:01:03.273+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:01:03.272+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:01:03.290+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:01:03.289+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:01:03.322+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.097 seconds
+[2023-11-20T15:01:35.588+0500] {processor.py:157} INFO - Started process (PID=8060) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:01:35.590+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:01:35.592+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:01:35.592+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:01:35.615+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:01:35.686+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:01:35.686+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:01:35.741+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:01:35.740+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:01:35.818+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.255 seconds
+[2023-11-20T15:02:59.981+0500] {processor.py:157} INFO - Started process (PID=8206) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:02:59.983+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:02:59.984+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:02:59.984+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:02:59.994+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:03:00.025+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:03:00.024+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:03:00.048+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:03:00.048+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:03:00.074+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.096 seconds
+[2023-11-20T15:03:40.258+0500] {processor.py:157} INFO - Started process (PID=8277) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:03:40.265+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:03:40.267+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:03:40.266+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:03:40.280+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:03:40.301+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:03:40.301+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:03:40.317+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:03:40.316+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:03:40.394+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.140 seconds
+[2023-11-20T15:04:18.435+0500] {processor.py:157} INFO - Started process (PID=8360) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:04:18.441+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:04:18.443+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:04:18.442+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:04:18.453+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:04:18.478+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:04:18.478+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:04:18.490+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:04:18.490+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:04:18.516+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.084 seconds
+[2023-11-20T15:04:55.033+0500] {processor.py:157} INFO - Started process (PID=8405) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:04:55.038+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:04:55.039+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:04:55.039+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:04:55.049+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:04:55.070+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:04:55.069+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:04:55.088+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:04:55.087+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:04:55.129+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.099 seconds
+[2023-11-20T15:05:35.180+0500] {processor.py:157} INFO - Started process (PID=8457) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:05:35.185+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:05:35.186+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:05:35.186+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:05:35.196+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:05:35.213+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:05:35.213+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:05:35.222+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:05:35.222+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:05:35.240+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.066 seconds
+[2023-11-20T15:06:12.709+0500] {processor.py:157} INFO - Started process (PID=8529) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:06:12.717+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:06:12.719+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:06:12.718+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:06:12.726+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:06:12.765+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:06:12.765+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:06:12.788+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:06:12.788+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:06:12.821+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.117 seconds
+[2023-11-20T15:06:49.178+0500] {processor.py:157} INFO - Started process (PID=8584) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:06:49.186+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:06:49.190+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:06:49.190+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:06:49.201+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:06:49.218+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:06:49.218+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:06:49.227+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:06:49.227+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:06:49.248+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.074 seconds
+[2023-11-20T15:07:31.905+0500] {processor.py:157} INFO - Started process (PID=8649) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:07:31.914+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:07:31.916+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:07:31.915+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:07:31.926+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:07:31.954+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:07:31.954+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:07:31.969+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:07:31.968+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:07:32.016+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.116 seconds
+[2023-11-20T15:08:18.987+0500] {processor.py:157} INFO - Started process (PID=8746) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:08:18.988+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:08:18.989+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:08:18.989+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:08:18.998+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:08:19.028+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:08:19.028+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:08:19.054+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:08:19.054+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:08:19.099+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.126 seconds
+[2023-11-20T15:09:02.089+0500] {processor.py:157} INFO - Started process (PID=8802) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:09:02.095+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:09:02.096+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:09:02.096+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:09:02.106+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:09:02.124+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:09:02.123+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:09:02.139+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:09:02.139+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:09:02.167+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.081 seconds
+[2023-11-20T15:09:41.093+0500] {processor.py:157} INFO - Started process (PID=8851) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:09:41.098+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:09:41.102+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:09:41.098+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:09:41.123+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:09:41.149+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:09:41.149+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:09:41.165+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:09:41.164+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:09:41.200+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.112 seconds
+[2023-11-20T15:10:24.054+0500] {processor.py:157} INFO - Started process (PID=8935) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:10:24.056+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:10:24.057+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:10:24.057+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:10:24.065+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:10:24.104+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:10:24.104+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:10:24.125+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:10:24.125+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:10:24.183+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.136 seconds
+[2023-11-20T15:11:01.705+0500] {processor.py:157} INFO - Started process (PID=8983) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:11:01.710+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:11:01.711+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:11:01.710+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:11:01.725+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:11:01.744+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:11:01.744+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:11:01.755+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:11:01.755+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:11:01.792+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.091 seconds
+[2023-11-20T15:11:32.675+0500] {processor.py:157} INFO - Started process (PID=9025) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:11:32.676+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:11:32.677+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:11:32.676+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:11:32.690+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:11:32.709+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:11:32.709+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:11:32.723+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:11:32.723+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:11:32.769+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.097 seconds
+[2023-11-20T15:12:10.312+0500] {processor.py:157} INFO - Started process (PID=9099) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:12:10.315+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:12:10.316+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:12:10.315+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:12:10.330+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:12:10.354+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:12:10.354+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:12:10.372+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:12:10.372+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:12:10.414+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.106 seconds
+[2023-11-20T15:12:44.841+0500] {processor.py:157} INFO - Started process (PID=9144) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:12:44.843+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:12:44.845+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:12:44.844+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:12:44.854+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:12:44.876+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:12:44.876+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:12:44.892+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:12:44.891+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:12:44.934+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.100 seconds
+[2023-11-20T15:13:20.093+0500] {processor.py:157} INFO - Started process (PID=9199) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:13:20.100+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:13:20.101+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:13:20.101+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:13:20.121+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:13:20.147+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:13:20.147+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:13:20.163+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:13:20.163+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:13:20.202+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.113 seconds
+[2023-11-20T15:13:56.940+0500] {processor.py:157} INFO - Started process (PID=9280) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:13:56.941+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:13:56.942+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:13:56.942+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:13:56.954+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:13:56.975+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:13:56.975+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:13:56.994+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:13:56.994+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:13:57.028+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.093 seconds
+[2023-11-20T15:14:35.138+0500] {processor.py:157} INFO - Started process (PID=9329) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:14:35.140+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:14:35.141+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:14:35.141+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:14:35.150+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:14:35.177+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:14:35.177+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:14:35.192+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:14:35.192+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:14:35.231+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.099 seconds
+[2023-11-20T15:15:12.042+0500] {processor.py:157} INFO - Started process (PID=9383) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:15:12.044+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:15:12.045+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:12.044+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:15:12.052+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:15:12.066+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:12.066+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:15:12.075+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:12.075+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:15:12.097+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.058 seconds
+[2023-11-20T15:15:44.063+0500] {processor.py:157} INFO - Started process (PID=9426) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:15:44.065+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:15:44.065+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:44.065+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:15:44.072+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:15:44.086+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:44.086+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:15:44.094+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:44.094+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:15:44.120+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.062 seconds
+[2023-11-20T15:16:17.302+0500] {processor.py:157} INFO - Started process (PID=9495) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:16:17.304+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:16:17.305+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:17.305+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:16:17.312+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:16:17.325+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:17.325+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:16:17.334+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:17.334+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:16:17.353+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.054 seconds
+[2023-11-20T15:16:48.937+0500] {processor.py:157} INFO - Started process (PID=9537) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:16:48.938+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:16:48.939+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:48.938+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:16:48.945+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:16:48.956+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:48.956+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:16:48.964+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:48.964+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:16:48.989+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.054 seconds
+[2023-11-20T15:17:20.129+0500] {processor.py:157} INFO - Started process (PID=9585) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:17:20.132+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:17:20.132+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:17:20.132+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:17:20.139+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:17:20.152+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:17:20.152+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:17:20.160+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:17:20.160+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:17:20.178+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.051 seconds
+[2023-11-20T15:18:04.948+0500] {processor.py:157} INFO - Started process (PID=9676) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:18:04.949+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:18:04.950+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:18:04.950+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:18:04.957+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:18:04.971+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:18:04.971+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:18:04.980+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:18:04.980+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:18:05.006+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.061 seconds
+[2023-11-20T15:18:41.191+0500] {processor.py:157} INFO - Started process (PID=9722) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:18:41.195+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:18:41.196+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:18:41.195+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:18:41.206+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:18:41.219+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:18:41.218+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:18:41.228+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:18:41.227+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:18:41.245+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.056 seconds
+[2023-11-20T15:19:13.943+0500] {processor.py:157} INFO - Started process (PID=9769) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:19:13.943+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:19:13.944+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:19:13.944+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:19:13.951+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:19:13.964+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:19:13.964+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:19:13.973+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:19:13.973+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:19:13.999+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.060 seconds
+[2023-11-20T15:20:02.205+0500] {processor.py:157} INFO - Started process (PID=9928) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:20:02.216+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:20:02.218+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:20:02.217+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:20:02.233+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:20:02.261+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:20:02.261+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:20:02.277+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:20:02.277+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:20:02.306+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.109 seconds
+[2023-11-20T15:20:43.563+0500] {processor.py:157} INFO - Started process (PID=9978) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:20:43.566+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:20:43.575+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:20:43.573+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:20:43.586+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:20:43.608+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:20:43.608+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:20:43.622+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:20:43.621+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:20:43.659+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.102 seconds
+[2023-11-20T15:21:26.715+0500] {processor.py:157} INFO - Started process (PID=10042) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:21:26.720+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:21:26.720+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:21:26.720+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:21:26.728+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:21:26.749+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:21:26.749+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:21:26.759+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:21:26.759+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:21:26.790+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.079 seconds
+[2023-11-20T15:22:11.338+0500] {processor.py:157} INFO - Started process (PID=10120) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:22:11.343+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:22:11.351+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:22:11.350+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:22:11.366+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:22:11.400+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:22:11.400+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:22:11.421+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:22:11.420+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:22:11.460+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.128 seconds
+[2023-11-20T15:22:52.004+0500] {processor.py:157} INFO - Started process (PID=10169) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:22:52.006+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:22:52.007+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:22:52.006+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:22:52.022+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:22:52.046+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:22:52.046+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:22:52.059+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:22:52.059+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:22:52.078+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.077 seconds
+[2023-11-20T15:23:32.240+0500] {processor.py:157} INFO - Started process (PID=10248) to work on /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:23:32.246+0500] {processor.py:829} INFO - Processing file /home/den/airflow/dags/Customer_Churn_Prediction.py for tasks to queue
+[2023-11-20T15:23:32.254+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:23:32.253+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:23:32.278+0500] {processor.py:839} INFO - DAG(s) dict_keys(['Customer_Churn_Prediction']) retrieved from /home/den/airflow/dags/Customer_Churn_Prediction.py
+[2023-11-20T15:23:32.300+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:23:32.299+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:23:32.310+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:23:32.309+0500] {dag.py:3722} INFO - Setting next_dagrun for Customer_Churn_Prediction to None, run_after=None
+[2023-11-20T15:23:32.342+0500] {processor.py:179} INFO - Processing /home/den/airflow/dags/Customer_Churn_Prediction.py took 0.109 seconds

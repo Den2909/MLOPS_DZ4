@@ -2,14 +2,7 @@ import pandas as pd
 import os
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import f1_score, roc_auc_score
-# import mlflow
-# import mlflow.sklearn
 
-
-# Инициализация MLflow
-# mlflow.set_tracking_uri("http://localhost:5000")
-# mlflow.set_experiment("train_test_split")
-# mlflow.start_run()
 
 # Загружаем данные
 datasets_dir = os.path.expanduser('~/Projects/MLOPS_DZ4/datasets')
@@ -39,18 +32,9 @@ X_test.to_csv(data_csv_path_X_test, index=False)
 y_train.to_csv(data_csv_path_y_train, index=False)
 y_test.to_csv(data_csv_path_y_test, index=False)
 
-# Логирование параметров и метрик в MLflow
-# mlflow.log_params({
-#     "test_size": TEST_SIZE
-# })
-# mlflow.log_metric("train_data_rows", len(y_train))
-# mlflow.log_metric("test_data_rows", len(y_test))
 
 print(f'Соотношение данных: Train: {X_train.shape[0]}, Test: {X_test.shape[0]}')
-print("Датасет train сохранен по пути:", data_csv_path_X_train)
-print("Датасет test сохранен по пути:", data_csv_path_X_test)
-print("Датасет train сохранен по пути:", data_csv_path_y_train)
-print("Датасет test сохранен по пути:", data_csv_path_y_test)
-
-# Завершение MLflow run
-# mlflow.end_run()
+print("Датасет X_train сохранен по пути:", data_csv_path_X_train)
+print("Датасет X_test сохранен по пути:", data_csv_path_X_test)
+print("Датасет y_train сохранен по пути:", data_csv_path_y_train)
+print("Датасет y_test сохранен по пути:", data_csv_path_y_test)

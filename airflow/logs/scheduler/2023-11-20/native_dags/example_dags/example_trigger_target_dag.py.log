@@ -1,0 +1,235 @@
+[2023-11-20T14:39:49.357+0500] {processor.py:157} INFO - Started process (PID=5234) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:39:49.358+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T14:39:49.359+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:49.358+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:39:49.393+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:39:49.644+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:49.644+0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T14:39:49.702+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:49.702+0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T14:39:49.716+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:49.716+0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T14:39:49.717+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:49.716+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:39:49.744+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:49.744+0500] {dag.py:2963} INFO - Creating ORM DAG for example_trigger_target_dag
+[2023-11-20T14:39:49.744+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:49.744+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T14:39:49.779+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.426 seconds
+[2023-11-20T14:40:37.843+0500] {processor.py:157} INFO - Started process (PID=5318) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:40:37.844+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T14:40:37.845+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:40:37.845+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:40:37.850+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:40:37.862+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:40:37.861+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:40:37.869+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:40:37.869+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T14:40:37.885+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.046 seconds
+[2023-11-20T14:50:15.230+0500] {processor.py:157} INFO - Started process (PID=6522) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:50:15.231+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T14:50:15.232+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:50:15.232+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:50:15.239+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:50:15.261+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:50:15.260+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:50:15.269+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:50:15.269+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T14:50:15.286+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.059 seconds
+[2023-11-20T14:51:04.147+0500] {processor.py:157} INFO - Started process (PID=6581) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:51:04.155+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T14:51:04.158+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:51:04.156+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:51:04.174+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:51:04.189+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:51:04.189+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:51:04.205+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:51:04.205+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T14:51:04.244+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.102 seconds
+[2023-11-20T14:51:53.291+0500] {processor.py:157} INFO - Started process (PID=6676) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:51:53.293+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T14:51:53.293+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:51:53.293+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:51:53.298+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:51:53.310+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:51:53.310+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:51:53.318+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:51:53.318+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T14:51:53.343+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.055 seconds
+[2023-11-20T14:57:47.108+0500] {processor.py:157} INFO - Started process (PID=7703) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:57:47.110+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T14:57:47.110+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:47.110+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:57:47.117+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:57:47.128+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:47.128+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:57:47.136+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:47.135+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T14:57:47.152+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.047 seconds
+[2023-11-20T14:58:35.967+0500] {processor.py:157} INFO - Started process (PID=7777) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:58:35.968+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T14:58:35.969+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:58:35.969+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:58:35.974+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:58:35.985+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:58:35.985+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:58:35.992+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:58:35.992+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T14:58:36.009+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.046 seconds
+[2023-11-20T14:59:22.669+0500] {processor.py:157} INFO - Started process (PID=7847) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:59:22.670+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T14:59:22.671+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:59:22.671+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:59:22.676+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T14:59:22.687+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:59:22.687+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:59:22.695+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:59:22.695+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T14:59:22.720+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.054 seconds
+[2023-11-20T15:00:15.473+0500] {processor.py:157} INFO - Started process (PID=7947) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:00:15.475+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:00:15.481+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:00:15.480+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:00:15.492+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:00:15.512+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:00:15.512+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:00:15.521+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:00:15.521+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:00:15.555+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.085 seconds
+[2023-11-20T15:01:08.848+0500] {processor.py:157} INFO - Started process (PID=8015) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:01:08.850+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:01:08.851+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:01:08.851+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:01:08.859+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:01:08.881+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:01:08.880+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:01:08.895+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:01:08.895+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:01:08.917+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.073 seconds
+[2023-11-20T15:02:19.935+0500] {processor.py:157} INFO - Started process (PID=8150) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:02:19.941+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:02:19.950+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:02:19.949+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:02:20.002+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:02:20.066+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:02:20.066+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:02:20.096+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:02:20.096+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:02:20.127+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.197 seconds
+[2023-11-20T15:03:37.813+0500] {processor.py:157} INFO - Started process (PID=8275) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:03:37.819+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:03:37.823+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:03:37.821+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:03:37.831+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:03:37.849+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:03:37.849+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:03:37.863+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:03:37.863+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:03:37.892+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.081 seconds
+[2023-11-20T15:04:34.037+0500] {processor.py:157} INFO - Started process (PID=8377) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:04:34.039+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:04:34.040+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:04:34.040+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:04:34.048+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:04:34.081+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:04:34.081+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:04:34.094+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:04:34.094+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:04:34.126+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.093 seconds
+[2023-11-20T15:05:32.422+0500] {processor.py:157} INFO - Started process (PID=8454) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:05:32.424+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:05:32.425+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:05:32.424+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:05:32.435+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:05:32.452+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:05:32.452+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:05:32.461+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:05:32.461+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:05:32.497+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.079 seconds
+[2023-11-20T15:06:27.461+0500] {processor.py:157} INFO - Started process (PID=8555) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:06:27.462+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:06:27.463+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:06:27.463+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:06:27.469+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:06:27.488+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:06:27.487+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:06:27.502+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:06:27.502+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:06:27.533+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.076 seconds
+[2023-11-20T15:07:28.479+0500] {processor.py:157} INFO - Started process (PID=8646) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:07:28.483+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:07:28.484+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:07:28.484+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:07:28.493+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:07:28.511+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:07:28.510+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:07:28.520+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:07:28.520+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:07:28.542+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.067 seconds
+[2023-11-20T15:08:34.733+0500] {processor.py:157} INFO - Started process (PID=8763) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:08:34.738+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:08:34.738+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:08:34.738+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:08:34.744+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:08:34.784+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:08:34.784+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:08:34.798+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:08:34.798+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:08:34.832+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.103 seconds
+[2023-11-20T15:09:33.872+0500] {processor.py:157} INFO - Started process (PID=8845) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:09:33.874+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:09:33.875+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:09:33.874+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:09:33.881+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:09:33.894+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:09:33.894+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:09:33.904+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:09:33.904+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:09:33.920+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.054 seconds
+[2023-11-20T15:10:38.239+0500] {processor.py:157} INFO - Started process (PID=8950) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:10:38.244+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:10:38.245+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:10:38.245+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:10:38.254+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:10:38.278+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:10:38.277+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:10:38.293+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:10:38.293+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:10:38.329+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.094 seconds
+[2023-11-20T15:11:26.514+0500] {processor.py:157} INFO - Started process (PID=9018) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:11:26.517+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:11:26.522+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:11:26.521+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:11:26.531+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:11:26.558+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:11:26.557+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:11:26.571+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:11:26.571+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:11:26.613+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.102 seconds
+[2023-11-20T15:12:21.941+0500] {processor.py:157} INFO - Started process (PID=9119) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:12:21.949+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:12:21.950+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:12:21.949+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:12:21.961+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:12:21.979+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:12:21.979+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:12:21.996+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:12:21.996+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:12:22.026+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.090 seconds
+[2023-11-20T15:13:14.836+0500] {processor.py:157} INFO - Started process (PID=9190) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:13:14.848+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:13:14.851+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:13:14.850+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:13:14.861+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:13:14.890+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:13:14.889+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:13:14.908+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:13:14.908+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:13:14.945+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.115 seconds
+[2023-11-20T15:14:11.183+0500] {processor.py:157} INFO - Started process (PID=9294) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:14:11.185+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:14:11.187+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:14:11.186+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:14:11.195+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:14:11.213+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:14:11.213+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:14:11.225+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:14:11.225+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:14:11.263+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.085 seconds
+[2023-11-20T15:15:06.642+0500] {processor.py:157} INFO - Started process (PID=9377) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:15:06.644+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:15:06.645+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:06.645+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:15:06.651+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:15:06.666+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:06.666+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:15:06.675+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:06.675+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:15:06.703+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.064 seconds
+[2023-11-20T15:15:55.581+0500] {processor.py:157} INFO - Started process (PID=9470) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:15:55.585+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:15:55.585+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:55.585+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:15:55.591+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:15:55.605+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:55.605+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:15:55.613+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:55.613+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:15:55.632+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.054 seconds
+[2023-11-20T15:16:42.647+0500] {processor.py:157} INFO - Started process (PID=9531) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:16:42.649+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:16:42.649+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:42.649+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:16:42.655+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:16:42.668+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:42.668+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:16:42.676+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:42.676+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:16:42.703+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.060 seconds
+[2023-11-20T15:17:28.973+0500] {processor.py:157} INFO - Started process (PID=9603) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:17:28.974+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:17:28.975+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:17:28.974+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:17:28.980+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:17:28.995+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:17:28.994+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:17:29.004+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:17:29.004+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:17:29.029+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.059 seconds
+[2023-11-20T15:18:16.413+0500] {processor.py:157} INFO - Started process (PID=9688) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:18:16.415+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:18:16.416+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:18:16.415+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:18:16.421+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:18:16.433+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:18:16.433+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:18:16.442+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:18:16.441+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:18:16.459+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.050 seconds
+[2023-11-20T15:19:08.891+0500] {processor.py:157} INFO - Started process (PID=9763) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:19:08.892+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:19:08.893+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:19:08.893+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:19:08.899+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:19:08.913+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:19:08.913+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:19:08.921+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:19:08.921+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:19:08.938+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.050 seconds
+[2023-11-20T15:19:54.143+0500] {processor.py:157} INFO - Started process (PID=9913) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:19:54.156+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:19:54.159+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:19:54.158+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:19:54.207+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:19:54.290+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:19:54.290+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:19:54.303+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:19:54.303+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:19:54.349+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.213 seconds
+[2023-11-20T15:20:57.658+0500] {processor.py:157} INFO - Started process (PID=10000) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:20:57.659+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:20:57.660+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:20:57.659+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:20:57.671+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:20:57.702+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:20:57.702+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:20:57.714+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:20:57.714+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:20:57.755+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.100 seconds
+[2023-11-20T15:22:03.816+0500] {processor.py:157} INFO - Started process (PID=10113) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:22:03.818+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:22:03.819+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:22:03.818+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:22:03.827+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:22:03.853+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:22:03.853+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:22:03.870+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:22:03.870+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:22:03.904+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.091 seconds
+[2023-11-20T15:23:04.900+0500] {processor.py:157} INFO - Started process (PID=10191) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:23:04.901+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-11-20T15:23:04.902+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:23:04.902+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:23:04.925+0500] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-11-20T15:23:04.943+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:23:04.943+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:23:04.952+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:23:04.952+0500] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-11-20T15:23:04.983+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.087 seconds

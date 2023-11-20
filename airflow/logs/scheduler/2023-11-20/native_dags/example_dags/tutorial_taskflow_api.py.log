@@ -1,0 +1,256 @@
+[2023-11-20T14:39:37.856+0500] {processor.py:157} INFO - Started process (PID=5180) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:39:37.857+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T14:39:37.858+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:37.857+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:39:37.865+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:39:37.943+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:37.943+0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T14:39:37.957+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:37.957+0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T14:39:37.966+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:37.966+0500] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T14:39:37.966+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:37.966+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:39:37.972+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:37.972+0500] {dag.py:2963} INFO - Creating ORM DAG for tutorial_taskflow_api
+[2023-11-20T14:39:37.973+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:39:37.973+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T14:39:37.989+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.136 seconds
+[2023-11-20T14:40:28.594+0500] {processor.py:157} INFO - Started process (PID=5297) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:40:28.606+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T14:40:28.609+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:40:28.608+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:40:28.615+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:40:28.627+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:40:28.627+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:40:28.637+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:40:28.636+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T14:40:28.655+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.063 seconds
+[2023-11-20T14:50:04.737+0500] {processor.py:157} INFO - Started process (PID=6504) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:50:04.740+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T14:50:04.740+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:50:04.740+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:50:04.750+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:50:04.773+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:50:04.772+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:50:04.797+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:50:04.797+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T14:50:04.835+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.103 seconds
+[2023-11-20T14:50:53.862+0500] {processor.py:157} INFO - Started process (PID=6570) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:50:53.864+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T14:50:53.865+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:50:53.864+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:50:53.869+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:50:53.880+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:50:53.880+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:50:53.887+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:50:53.887+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T14:50:53.904+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.045 seconds
+[2023-11-20T14:51:38.501+0500] {processor.py:157} INFO - Started process (PID=6628) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:51:38.502+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T14:51:38.503+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:51:38.503+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:51:38.508+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:51:38.521+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:51:38.521+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:51:38.531+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:51:38.531+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T14:51:38.549+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.051 seconds
+[2023-11-20T14:53:23.110+0500] {processor.py:157} INFO - Started process (PID=7380) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:53:23.114+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T14:53:23.115+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:53:23.115+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:53:23.133+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:53:23.173+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:53:23.173+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:53:23.202+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:53:23.202+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T14:53:23.229+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.124 seconds
+[2023-11-20T14:54:54.281+0500] {processor.py:157} INFO - Started process (PID=7503) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:54:54.288+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T14:54:54.289+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:54:54.289+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:54:54.301+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:54:54.328+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:54:54.328+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:54:54.347+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:54:54.346+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T14:54:54.389+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.110 seconds
+[2023-11-20T14:57:37.970+0500] {processor.py:157} INFO - Started process (PID=7659) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:57:37.971+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T14:57:37.972+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:37.972+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:57:37.983+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:57:38.015+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:38.015+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:57:38.024+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:57:38.024+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T14:57:38.053+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.087 seconds
+[2023-11-20T14:58:23.273+0500] {processor.py:157} INFO - Started process (PID=7764) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:58:23.282+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T14:58:23.283+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:58:23.283+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:58:23.290+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:58:23.302+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:58:23.302+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:58:23.309+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:58:23.309+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T14:58:23.325+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.055 seconds
+[2023-11-20T14:59:11.296+0500] {processor.py:157} INFO - Started process (PID=7826) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:59:11.297+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T14:59:11.298+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:59:11.298+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:59:11.303+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T14:59:11.314+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:59:11.314+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T14:59:11.324+0500] {logging_mixin.py:154} INFO - [2023-11-20T14:59:11.324+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T14:59:11.350+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.057 seconds
+[2023-11-20T15:00:00.282+0500] {processor.py:157} INFO - Started process (PID=7924) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:00:00.283+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:00:00.284+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:00:00.284+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:00:00.289+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:00:00.300+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:00:00.300+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:00:00.307+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:00:00.307+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:00:00.332+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.052 seconds
+[2023-11-20T15:00:52.833+0500] {processor.py:157} INFO - Started process (PID=7994) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:00:52.834+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:00:52.835+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:00:52.835+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:00:52.840+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:00:52.851+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:00:52.851+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:00:52.858+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:00:52.858+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:00:52.874+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.043 seconds
+[2023-11-20T15:01:43.177+0500] {processor.py:157} INFO - Started process (PID=8068) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:01:43.179+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:01:43.179+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:01:43.179+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:01:43.185+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:01:43.203+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:01:43.203+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:01:43.215+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:01:43.214+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:01:43.241+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.067 seconds
+[2023-11-20T15:03:26.684+0500] {processor.py:157} INFO - Started process (PID=8264) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:03:26.688+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:03:26.690+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:03:26.689+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:03:26.699+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:03:26.719+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:03:26.719+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:03:26.737+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:03:26.737+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:03:26.767+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.087 seconds
+[2023-11-20T15:04:15.155+0500] {processor.py:157} INFO - Started process (PID=8349) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:04:15.159+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:04:15.161+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:04:15.161+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:04:15.170+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:04:15.195+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:04:15.194+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:04:15.217+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:04:15.217+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:04:15.251+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.100 seconds
+[2023-11-20T15:05:12.967+0500] {processor.py:157} INFO - Started process (PID=8426) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:05:12.969+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:05:12.969+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:05:12.969+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:05:12.977+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:05:12.998+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:05:12.998+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:05:13.012+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:05:13.012+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:05:13.056+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.097 seconds
+[2023-11-20T15:06:09.447+0500] {processor.py:157} INFO - Started process (PID=8526) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:06:09.456+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:06:09.458+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:06:09.456+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:06:09.468+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:06:09.493+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:06:09.493+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:06:09.507+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:06:09.507+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:06:09.538+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.095 seconds
+[2023-11-20T15:07:06.899+0500] {processor.py:157} INFO - Started process (PID=8607) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:07:06.901+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:07:06.901+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:07:06.901+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:07:06.908+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:07:06.921+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:07:06.921+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:07:06.931+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:07:06.931+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:07:06.948+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.054 seconds
+[2023-11-20T15:08:10.838+0500] {processor.py:157} INFO - Started process (PID=8728) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:08:10.842+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:08:10.846+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:08:10.845+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:08:10.858+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:08:10.890+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:08:10.889+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:08:10.911+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:08:10.911+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:08:10.942+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.109 seconds
+[2023-11-20T15:08:54.499+0500] {processor.py:157} INFO - Started process (PID=8794) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:08:54.502+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:08:54.503+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:08:54.503+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:08:54.515+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:08:54.535+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:08:54.535+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:08:54.550+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:08:54.550+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:08:54.578+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.082 seconds
+[2023-11-20T15:09:54.217+0500] {processor.py:157} INFO - Started process (PID=8897) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:09:54.229+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:09:54.231+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:09:54.230+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:09:54.239+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:09:54.262+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:09:54.262+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:09:54.278+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:09:54.278+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:09:54.329+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.122 seconds
+[2023-11-20T15:10:54.189+0500] {processor.py:157} INFO - Started process (PID=8975) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:10:54.198+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:10:54.200+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:10:54.199+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:10:54.208+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:10:54.225+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:10:54.225+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:10:54.235+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:10:54.235+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:10:54.255+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.072 seconds
+[2023-11-20T15:11:43.247+0500] {processor.py:157} INFO - Started process (PID=9036) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:11:43.250+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:11:43.257+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:11:43.254+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:11:43.268+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:11:43.290+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:11:43.290+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:11:43.304+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:11:43.304+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:11:43.339+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.096 seconds
+[2023-11-20T15:12:38.160+0500] {processor.py:157} INFO - Started process (PID=9137) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:12:38.166+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:12:38.167+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:12:38.166+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:12:38.176+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:12:38.195+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:12:38.195+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:12:38.206+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:12:38.206+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:12:38.237+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.082 seconds
+[2023-11-20T15:13:30.658+0500] {processor.py:157} INFO - Started process (PID=9216) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:13:30.659+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:13:30.660+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:13:30.660+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:13:30.672+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:13:30.707+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:13:30.707+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:13:30.730+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:13:30.730+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:13:30.760+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.107 seconds
+[2023-11-20T15:14:28.255+0500] {processor.py:157} INFO - Started process (PID=9322) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:14:28.270+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:14:28.272+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:14:28.271+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:14:28.280+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:14:28.300+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:14:28.299+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:14:28.313+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:14:28.312+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:14:28.334+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.084 seconds
+[2023-11-20T15:15:20.646+0500] {processor.py:157} INFO - Started process (PID=9397) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:15:20.648+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:15:20.648+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:20.648+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:15:20.654+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:15:20.667+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:20.666+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:15:20.674+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:15:20.674+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:15:20.706+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.063 seconds
+[2023-11-20T15:16:11.431+0500] {processor.py:157} INFO - Started process (PID=9488) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:16:11.432+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:16:11.433+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:11.432+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:16:11.440+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:16:11.453+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:11.453+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:16:11.463+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:11.463+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:16:11.489+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.060 seconds
+[2023-11-20T15:16:58.087+0500] {processor.py:157} INFO - Started process (PID=9557) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:16:58.090+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:16:58.091+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:58.091+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:16:58.099+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:16:58.113+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:58.112+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:16:58.121+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:16:58.120+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:16:58.141+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.057 seconds
+[2023-11-20T15:17:42.624+0500] {processor.py:157} INFO - Started process (PID=9618) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:17:42.625+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:17:42.626+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:17:42.626+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:17:42.632+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:17:42.645+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:17:42.645+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:17:42.660+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:17:42.660+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:17:42.685+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.064 seconds
+[2023-11-20T15:18:35.609+0500] {processor.py:157} INFO - Started process (PID=9716) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:18:35.612+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:18:35.612+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:18:35.612+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:18:35.619+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:18:35.633+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:18:35.632+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:18:35.641+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:18:35.641+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:18:35.667+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.061 seconds
+[2023-11-20T15:19:21.949+0500] {processor.py:157} INFO - Started process (PID=9786) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:19:21.950+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:19:21.951+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:19:21.951+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:19:21.957+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:19:21.969+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:19:21.969+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:19:21.977+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:19:21.976+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:19:21.996+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.051 seconds
+[2023-11-20T15:20:15.872+0500] {processor.py:157} INFO - Started process (PID=9943) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:20:15.878+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:20:15.879+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:20:15.878+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:20:15.889+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:20:15.910+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:20:15.910+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:20:15.928+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:20:15.927+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:20:15.951+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.085 seconds
+[2023-11-20T15:21:19.709+0500] {processor.py:157} INFO - Started process (PID=10022) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:21:19.717+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:21:19.718+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:21:19.718+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:21:19.732+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:21:19.752+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:21:19.752+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:21:19.762+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:21:19.762+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:21:19.780+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.077 seconds
+[2023-11-20T15:22:23.997+0500] {processor.py:157} INFO - Started process (PID=10141) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:22:23.998+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:22:23.999+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:22:23.999+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:22:24.017+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:22:24.030+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:22:24.030+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:22:24.039+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:22:24.039+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:22:24.077+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.084 seconds
+[2023-11-20T15:23:24.708+0500] {processor.py:157} INFO - Started process (PID=10238) to work on /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:23:24.710+0500] {processor.py:829} INFO - Processing file /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-20T15:23:24.712+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:23:24.711+0500] {dagbag.py:536} INFO - Filling up the DagBag from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:23:24.721+0500] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-20T15:23:24.740+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:23:24.740+0500] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T15:23:24.754+0500] {logging_mixin.py:154} INFO - [2023-11-20T15:23:24.754+0500] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-20T15:23:24.798+0500] {processor.py:179} INFO - Processing /home/den/Projects/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.094 seconds

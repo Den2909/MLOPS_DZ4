@@ -1,0 +1,19 @@
+[2023-11-20T15:02:46.579+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Customer_Churn_Prediction.test_model manual__2023-11-20T10:01:57.047546+00:00 [queued]>
+[2023-11-20T15:02:46.584+0500] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Customer_Churn_Prediction.test_model manual__2023-11-20T10:01:57.047546+00:00 [queued]>
+[2023-11-20T15:02:46.584+0500] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-11-20T15:02:46.610+0500] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): test_model> on 2023-11-20 10:01:57.047546+00:00
+[2023-11-20T15:02:46.616+0500] {standard_task_runner.py:57} INFO - Started process 8182 to run task
+[2023-11-20T15:02:46.624+0500] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'Customer_Churn_Prediction', 'test_model', 'manual__2023-11-20T10:01:57.047546+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/Customer_Churn_Prediction.py', '--cfg-path', '/tmp/tmp5gzcqc0k']
+[2023-11-20T15:02:46.626+0500] {standard_task_runner.py:85} INFO - Job 11: Subtask test_model
+[2023-11-20T15:02:46.681+0500] {task_command.py:416} INFO - Running <TaskInstance: Customer_Churn_Prediction.test_model manual__2023-11-20T10:01:57.047546+00:00 [running]> on host data-srv.myguest.virtualbox.org
+[2023-11-20T15:02:46.763+0500] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='Customer_Churn_Prediction' AIRFLOW_CTX_TASK_ID='test_model' AIRFLOW_CTX_EXECUTION_DATE='2023-11-20T10:01:57.047546+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-20T10:01:57.047546+00:00'
+[2023-11-20T15:02:46.766+0500] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-11-20T15:02:46.766+0500] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/den/Projects/MLOPS_DZ4/scripts/test_model.py']
+[2023-11-20T15:02:46.788+0500] {subprocess.py:86} INFO - Output:
+[2023-11-20T15:02:47.746+0500] {subprocess.py:93} INFO - Test accuracy score: 96.47%
+[2023-11-20T15:02:47.746+0500] {subprocess.py:93} INFO - Test F1 score: 0.86
+[2023-11-20T15:02:47.746+0500] {subprocess.py:93} INFO - Test ROC-AUC score: 0.92
+[2023-11-20T15:02:48.002+0500] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-11-20T15:02:48.054+0500] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Customer_Churn_Prediction, task_id=test_model, execution_date=20231120T100157, start_date=20231120T100246, end_date=20231120T100248
+[2023-11-20T15:02:48.116+0500] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-20T15:02:48.129+0500] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
